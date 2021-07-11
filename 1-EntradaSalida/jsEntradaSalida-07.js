@@ -5,21 +5,55 @@ mostrar el resulto por medio de "ALERT"
 ej.: "la Resta es 750"*/ 
 function sumar()
 {	
-	alert("ok");	
+	var num1;
+	var num2;
+	var resultado;
+	num1 = document.getElementById("txtIdNumeroUno").value;
+	num2 = document.getElementById("txtIdNumeroDos").value;
+ 	num1 = parseInt(num1);
+	num2 = parseInt(num2);
+	resultado = num1 + num2;
+	alert (resultado);
+
 }
 
-function restar()
+	function restar()
 {
-	
+	var num1;
+	var num2;
+	var resultado;
+	num1 = document.getElementById("txtIdNumeroUno").value;
+	num2 = document.getElementById("txtIdNumeroDos").value;
+	num1 = parseInt(num1);
+	num2 = parseInt(num2);
+	resultado = num1 - num2;
+	alert (resultado);	
 }
 
-function multiplicar()
+	function multiplicar()
 { 
-	
+	var num1;
+	var num2;
+	var resultado;
+	num1 = document.getElementById("txtIdNumeroUno").value;
+	num2 = document.getElementById("txtIdNumeroDos").value;
+	num1 = parseInt(num1);
+	num2 = parseInt(num2);
+	resultado = num1 * num2;
+	alert (resultado);
 }
 
-function dividir()
+	function dividir()
 {
+	var num1;
+	var num2;
+	var resultado;
+	num1 = document.getElementById("txtIdNumeroUno").value;
+	num2 = document.getElementById("txtIdNumeroDos").value;
+	num1 = parseInt(num1);
+	num2 = parseInt(num2);
+	resultado = num1 / num2;
+	alert (resultado);
 	
 }
 
